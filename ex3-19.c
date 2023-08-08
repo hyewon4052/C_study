@@ -1,9 +1,7 @@
 #include <stdio.h>
 main () {
-	putchar('a');
-	putchar(10);
-	putchar(9);
-	putchar(65);
-	putchar(13);
-	putchar('b');
+	char a;
+	printf("입력문자 1개 입력 : ");
+	a = getchar();
+	putchar(a); 
 }

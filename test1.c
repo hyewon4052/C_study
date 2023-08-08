@@ -1,4 +1,5 @@
 #include <stdio.h>
-main () {
+main()
+{
 	printf("\"Yes\", or \"No\"");
 }
